@@ -1,3 +1,4 @@
+```mermaid
 graph LR
 
 %% ControleOnline — Focus MVP Restaurante (canais→pedido→pagamento→KDS→entrega→backoffice)
@@ -146,3 +147,4 @@ crm_community_master --> ui_crm_master
 del_node --> dispatch_motoboy
 dispatch_motoboy -. hoje .-> delivery_community_master
 dispatch_motoboy -. futuro: carteiras .-> api_platform_financial_master
+```
